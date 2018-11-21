@@ -174,3 +174,11 @@ a:active {
 .modal .modal-body i{
 color: red;
 }
+
+.echarts_left,
+.echarts_right {
+    width: 48%;
+    height: 400px;
+    background-color: skyblue;
+    
+}
