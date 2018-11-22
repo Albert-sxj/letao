@@ -13,7 +13,7 @@ $(function () {
 
     $(document).ajaxStop(function () {
         // $(".log").text("Triggered ajaxStop handler.");
-    // NProgress .done();
+    NProgress .done();
 
     });
 

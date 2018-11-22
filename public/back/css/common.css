@@ -193,3 +193,20 @@ color: red;
     text-align: center;
     vertical-align: middle;
 }
+
+
+
+/* 分页插件位置 */
+
+ /* #paginator {
+    float: right;
+    right: 0;
+    top: 0;
+
+
+} */
+
+
+#userModal .modal-body {
+        color: red;
+}
