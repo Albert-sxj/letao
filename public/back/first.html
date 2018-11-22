@@ -33,10 +33,10 @@
 
         <div class="nav">
             <ul>
-                <li><a href="user.html" class="current"><i class="glyphicon glyphicon-user"></i><span>用户管理</span></a></li>
+                <li><a href="user.html" ><i class="glyphicon glyphicon-user"></i><span>用户管理</span></a></li>
                 <li><a href="javascript:;" id="category"><i class="glyphicon glyphicon-list"></i><span>分类管理</span></a>
-                    <div class="child " style="display:none">
-                        <a href="first.html">一级分类</a>
+                    <div class="child " style="display:block">
+                        <a href="first.html" class="current">一级分类</a>
                         <a href="second.html">二级分类</a>
 
                     </div>
@@ -54,7 +54,7 @@
         <!-- 头部 -->
         <div class="header">
             <a href="#" class="pull-left icon_left"><i class="glyphicon glyphicon-align-justify"></i></a>
-            <a href="#" class="pull-right inco-right " ><i class="glyphicon glyphicon-log-out "></i></a>
+            <a href="#" class="pull-right inco-right "><i class="glyphicon glyphicon-log-out "></i></a>
         </div>
 
         <!-- 流式布局样式 -->
@@ -64,30 +64,66 @@
 
             <ol class="breadcrumb">
                 <li><a href="index.html">管理系统 </a></li>
-                <li class="active">首页</li>
+                <li class="active">分类管理</li>
+                
+                <li class="active">一级分类</li>
             </ol>
 
 
         </div>
 
 
-          <!-- 两个图表 -->
 
-  <div class="lt_content">
-        <div class="echarts_left pull-left"></div>
-        <div class="echarts_right pull-right"></div>
+
+
+        <!-- 表格 -->
+        <table>
+            <thead>
+                <tr>
+                    <th>序号</th>
+                    <th>用户名</th>
+                    <th>手机号</th>
+                    <th>状态</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            				
+
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>itcast</td>
+                    <td>15757771111</td>
+                    <td>正常</td>
+                </tr>
+
+
+            </tbody>
+
+
+        </table>
+
+
+
+
     </div>
-    </div>
+
+
+
+
+
+
+
 
 
     <!-- 模态框 -->
 
-   
-    <div class="modal fade" tabindex="-1"  id="myModal">
+
+    <div class="modal fade" tabindex="-1" id="myModal">
         <div class="modal-dialog modal-sm">
             <div class="modal-content">
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" ><span >&times;</span></button>
+                    <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
                     <h4 class="modal-title">温馨提示</h4>
                 </div>
                 <div class="modal-body">
@@ -110,13 +146,11 @@
 
     <script src="./lib/jquery/jquery.min.js"></script>
     <script src="./lib/bootstrap/js/bootstrap.min.js"></script>
-    <script src="./lib/echarts/echarts.min.js"></script>
     <script src="./lib/nprogress/nprogress.js"></script>
     <script src="./js/common.js"></script>
     <script src="./lib/bootstrap-validator/js/bootstrapValidator.min.js"></script>
- 
-   <script src="./js/isLogin.js"></script>
-   <script src="./js/index.js"></script>
+
+    <script src="./js/isLogin.js"></script>
 </body>
 
 </html>

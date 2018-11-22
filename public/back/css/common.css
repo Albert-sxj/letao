@@ -182,3 +182,14 @@ color: red;
     background-color: skyblue;
     
 }
+
+
+/* 表格样式 */
+
+/* 让所有的表格的th 和td内容居中 */
+
+.table.table-bordered th ,
+.table.table-bordered td {
+    text-align: center;
+    vertical-align: middle;
+}
