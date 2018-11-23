@@ -1,9 +1,4 @@
-$(function () {
-
- 
-
-
-    // NProgress.start();
+// NProgress.start();
     // NProgress .done();
     $(document).ajaxStart(function () {
         // $( ".log" ).text( "Triggered ajaxStart handler." );
@@ -16,6 +11,10 @@ $(function () {
     NProgress .done();
 
     });
+
+
+$(function () {
+
 
 
     /* 公共 */
